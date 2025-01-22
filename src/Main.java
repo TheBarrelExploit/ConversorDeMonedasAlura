@@ -1,10 +1,10 @@
 import com.conversor.monedas.Request;
-import java.io.IOException;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args)  {
         int opcion = 0;
         double valorDinero;
         String Menu = """
