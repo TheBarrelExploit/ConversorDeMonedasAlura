@@ -12,6 +12,7 @@ import java.util.InputMismatchException;
 
 public class Request  {
     private String apiKey = System.getenv().get("KEYVALUE");
+
     Gson gson = new GsonBuilder()
             .setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
             .setPrettyPrinting()
