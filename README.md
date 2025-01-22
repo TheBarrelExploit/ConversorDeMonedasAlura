@@ -23,7 +23,7 @@ cd ConversorDeMonedasAlura
 Se requiere la incorporación del JAR de la libreria Gson, para esto, toca realizar la configuración de la ruta del jar, en este caso
 para obtener dicho archivo, desde la pagina oficial de maven o directamente en la carpeta del proyecto denominada "jar", se realiza la 
 instalación en las configuraciones del proyecto.
-![Consulta DIVISA](resourse/configuracion.gif)
+![Consulta DIVISA](resource/configuracion.gif)
 # Obtener la apikey
 Para el funcionamiento de la aplicación, se requiere una apikey de la siguiente pagina https://www.exchangerate-api.com/, con el fin de 
 obtener los valores actuales de las divisas utilizadas, se requiere realizar el registro en la pagina para obtenerla.
@@ -31,7 +31,7 @@ obtener los valores actuales de las divisas utilizadas, se requiere realizar el 
 
 # Ejecutar proyecto
 Con el proposito de ejecutar el programa, se debe ir al archivo denominado Main, donde se maneja todo mediante consola
-![Consulta DIVISA](resourse/ejecutarmain.gif)
+![Consulta DIVISA](resource/ejecutarmain.gif)
 # Variables de entorno
 Para este proyecto se requiere tener una variable con el siguiente nombre:
 - `KEYVALUE`: apiKey
@@ -41,11 +41,11 @@ En este caso se obtiene de las variables de entorno de windows
 - `Funcionalidad 1`: Conversor de monedas de Dolar, Peso Argentino
 Peso colombiano y real brasileño.
 
-![Consulta DIVISA](resourse/menu.png)
+![Consulta DIVISA](resource/menu.png)
 
 # Demo ⚙️
 - Consulta DIVISA
-![Consulta DIVISA](resourse/consulta.gif)
+![Consulta DIVISA](resource/consulta.gif)
 
 
 # Licencia 📄
