@@ -17,7 +17,7 @@ public class Request  {
             .setPrettyPrinting()
             .create();
 
-    public void getConvertMoney(String baseCode, String targetCode, Double value) throws IOException, InterruptedException {
+    public void getConvertMoney(String baseCode, String targetCode, Double value) {
         String direccion = "https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + baseCode + "/" + targetCode + "/" + value;
         try {
             HttpClient client = HttpClient.newHttpClient();
@@ -32,7 +32,7 @@ public class Request  {
 
             if (moneda.getResult().equals("error") ) {
                 String [] datos = response.body().split(",");
-                System.out.println("Error en la consulta, código retornado api rest: " + datos[datos.length -1].split(":")[1].replaceAll("[\\\"\\\\[\\\\]\\\\}]", "").trim());
+                System.out.println("Error en la consulta, código retornado api rest: " + datos[datos.length -1].split(":")[1].replaceAll("[\\\\}]", "").trim());
                 return;
             }
             System.out.println("Cada " + moneda.getBaseCode() + " corresponden a " + moneda.getConversionRate() + " "+ moneda.getTargetCode());
