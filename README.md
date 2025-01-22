@@ -36,13 +36,14 @@ Con el proposito de ejecutar el programa, se debe ir al archivo denominado Main,
 Para este proyecto se requiere tener una variable con el siguiente nombre:
 - `KEYVALUE`: apiKey
 En este caso se obtiene de las variables de entorno de windows
+# Menú
+![Consulta DIVISA](resource/menu.png)
 
 # 🔨 Funcionalidades 
 - `Funcionalidad 1`: Conversor de monedas de Dolar, Peso Argentino
 Peso colombiano y real brasileño.
 
-![Consulta DIVISA](resource/menu.png)
-
+  
 # Demo ⚙️
 - Consulta DIVISA
 ![Consulta DIVISA](resource/consulta.gif)
